@@ -1,0 +1,24 @@
+{
+    "name": "geeklearners/modalbox",
+    "description": "Wrapper for modal box for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geek Learners",
+            "email": "technoinfo60@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Geeklearners\\Modalbox\\ModalServiceProvider"
+            ],
+            "aliases": {
+                "Modal": "Geeklearners\\Modalbox\\Modal"
+            }
+        }
+    }
+}
